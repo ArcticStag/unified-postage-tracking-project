@@ -1,0 +1,23 @@
+{
+  "name": "unified-postage-tracking-project",
+  "version": "0.1.0",
+  "description": "This project intends to create a self hosted web platform to check and track packages from multiple providers of postage services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcticStag/unified-postage-tracking-project.git"
+  },
+  "keywords": [
+    "Node",
+    "Self-Hosted"
+  ],
+  "author": "Callum Bullard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcticStag/unified-postage-tracking-project/issues"
+  },
+  "homepage": "https://github.com/ArcticStag/unified-postage-tracking-project#readme"
+}
