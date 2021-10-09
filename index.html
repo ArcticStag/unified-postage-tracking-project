@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Unified Mail Tracker</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-header">The 冷凍蓮 Unified Mail Tracker</h1>
+      <br />
+    </header>
+    <main>
+      <section>
+        <h2 class="text-header">Welcome</h2>
+        <p>
+          Thank you for checking out my first open source Web Application
+          project.
+        </p>
+      </section>
+      <section>
+        <form action="#check-package-tracking">
+          <div>
+            <h3 class="text-header">Please enter the following details:</h3>
+            <label for="trackingnumbers"
+              >Please enter tracking numbers, One per line (max 10)</label
+            >
+          </div>
+          <div>
+            <textarea
+              name="tracking-numbers"
+              id="tracking-numbers"
+              cols="40"
+              rows="10"
+              placeholder="Enter tracking numbers"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Check Tracking</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
