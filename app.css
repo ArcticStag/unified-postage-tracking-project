@@ -5,24 +5,29 @@ html {
   --sizzling-red: #ff2c55ff;
   --black-shadows: #bbb5bdff;
   --light-cyan: #e9fff9ff;
+  --background:#2c3531ff;
+  --header-text:#116466ff;
+  --main-text:#d1e8e2ff;
+  --drop-color:#d9b08cff;
+  --tertiary-drop-color:#ffcb9aff;
 }
 
 body {
   margin: 0;
-  background-color: #252525;
-  color: white;
+  background-color: var(--background);
+  color: var(--main-text);
 }
 
 .text-header {
-  color: var(--sizzling-red);
+  color: var(--drop-color);
 }
 
 section {
   margin: 0.5%;
   padding: 1em;
-  border: 2px solid #183455;
+  border: 2px solid var(--tertiary-drop-color);
   border-radius: 10px;
-  background-color: #222222;
+  background-color: var(--header-text);
 }
 
 div {
@@ -38,7 +43,7 @@ textarea {
 }
 
 textarea::placeholder {
-  color: #fff;
+  color: var(--drop-color);
   padding: 0.5em;
   margin: 30px 0;
 }
@@ -54,9 +59,10 @@ label {
 
 button {
   font-size: 15px;
-  background: none;
-  color: var(--black-shadows);
-  border: 2px solid;
+  background: var(--header-text);
+  color: var(--main-text);
+  border: 2px solid var(--tertiary-drop-color);
+  border-radius: 1em;
   padding: 1em 2em;
   transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
